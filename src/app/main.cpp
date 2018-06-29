@@ -1,6 +1,10 @@
 #include <iostream>
 #include "app.h"
 
-void main() {
-   std::cout << App().test() << std::endl;
+using namespace structures;
+
+void main(int argc, const char* argv[]) {
+   App app;
+   app.init(argc, argv);
+   app.run();
 }
