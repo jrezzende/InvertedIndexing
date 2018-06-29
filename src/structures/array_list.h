@@ -1,4 +1,7 @@
-/** Copyright www.github.com/jrezzende */
+#pragma once
+
+/** <copyright github.com/jrezzende> */
+
 #ifndef STRUCTURES_ARRAY_LIST_H
 #define STRUCTURES_ARRAY_LIST_H
 
