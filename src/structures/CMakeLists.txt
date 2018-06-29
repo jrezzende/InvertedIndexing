@@ -8,6 +8,7 @@ set(
 	array_list.h
 	linked_stack.h
 	linked_list.h
+	bin_linkedlist_tree.h
 )
 
 set(
