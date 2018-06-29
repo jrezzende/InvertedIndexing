@@ -237,7 +237,7 @@ namespace structures {
    size_t BinLinkedListTree::fileSize() const {
       struct stat st;
       if (stat("./second_tree.dat", &st) != 0)
-         throw std::out_of_range("FILE SIZE OUT OF RANGE!");
+         throw std::out_of_range("MANPAGE SIZE OUT OF RANGE!");
       return st.st_size;
    }
 }
